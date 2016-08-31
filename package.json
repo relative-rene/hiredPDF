@@ -1,0 +1,11 @@
+{
+  "name": "hired-pdf",
+  "version": "1.0.0",
+  "description": "From PDF to website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "relative-rene",
+  "license": "ISC"
+}
