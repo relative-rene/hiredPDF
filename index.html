@@ -14,14 +14,23 @@
 
   </head>
   <body>
-    <section class="page-header">
-      <h3 class="project-name">Hired</h3>
-      <h2 class="project-tagline">State of US Salaries Report</h2>
-      <a href="#average-eng" class="btn">Average Software Engineer Salary</a>
-      <a href="#average-relo" class="btn">Relocating Software Engineer Salary</a>
-      <a href="#people-chart" class="btn">Employer Research</a>
-    </section>
-    <br>
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="#average-eng">Software Engineer Salary</a></li>
+      <li><a href="#average-relo">Relocating Salary</a></li>
+      <li><a href="#people-chart">Employer Research</a></li>
+    </ul>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="https://hired.com/" class="hired">Hired</a>
+        <ul class="right hide-on-med-and-down">
+          <li class='center-align'>State of US Salaries Report</li>
+          <!-- Dropdown Trigger -->
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Graphs<i class="material-icons right">arrow_drop_down</i></a></li>
+        </ul>
+      </div>
+    </nav>
+      <br>
     <h5> HIRED’S STATE OF SALARIES REPORT</h5>
     <hr>
     <p>Hired, the company on a mission to get everyone a job they love, has tapped into its
