@@ -1,8 +1,7 @@
 
 body {
   font-family: "Georgia",  "Arial";
-  font-size: 16px;
-
+  font-size: 1em;
 }
 
 a:hover {
@@ -13,20 +12,27 @@ a:hover {
   background-color: rgb(87,91,107);
   color: #fff;
 }
-
+.hired {
+  font-size: 1.2em;
+}
 hr {
   color:#1CB78C;
 }
 img {
-  max-width: 50%;
-  max-height: 50%
+  max-width: 120%;
+  max-height: 120%;
+  margin:0;
+  padding:0;
 }
 span {
-  font-size: 70%;
+  font-size: 1em;
   text-align: center;
   margin: 0;
 }
 
 ul li {
-  font-size: 7px
+  font-size: .5em;
+}
+.topic {
+  font-size: 1.1em;
 }
