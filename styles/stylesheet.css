@@ -17,3 +17,16 @@ a:hover {
 hr {
   color:#1CB78C;
 }
+img {
+  max-width: 50%;
+  max-height: 50%
+}
+span {
+  font-size: 70%;
+  text-align: center;
+  margin: 0;
+}
+
+ul li {
+  font-size: 7px
+}
