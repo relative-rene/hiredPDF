@@ -8,7 +8,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.nav-wrapper {
+.nav-wrapper, .debrief {
   background-color: rgb(87,91,107);
   color: #fff;
 }

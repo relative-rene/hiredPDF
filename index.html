@@ -16,7 +16,7 @@
   <body>
     <!-- Dropdown Structure -->
     <ul id="dropdown1" class="dropdown-content">
-      <li><a href="#average-eng">Software Engineer Salary</a></li>
+      <li><a href="#average">Software Engineer Salary</a></li>
       <li><a href="#average-relo">Relocating Salary</a></li>
       <li><a href="#people-chart">Employer Research</a></li>
     </ul>
@@ -104,6 +104,8 @@
           <hr>
           <div class="col m7">
             <img id="average" src="styles/images/average-eng.jpg">
+              <!-- Modal Trigger -->
+            <a class="waves-effect waves-light modal-trigger btn pull-right" href="#modal1"><i class="material-icons">zoom_in</i></a>
           </div>
         </div>
         <br>
@@ -127,6 +129,9 @@
           </div>
           <div class="col m8">
               <img id="average-relo" src="styles/images/average-relo.jpg">
+              <!-- Modal Trigger -->
+              <a class="waves-effect waves-light modal-trigger btn pull-right" href="#modal2"><i class="material-icons">zoom_in</i></a>
+
             <p style="font-size:.6em">
               Black: Average offer for candidates relocating from San Francisco
               Green: The difference in salary between candidates who relocated from San Francisco and the average
@@ -163,6 +168,8 @@
             </div>
             <div class="col m6">
               <img id="people-chart" src="styles/images/people-chart.jpg">
+              <!-- Modal trigger -->
+              <a class="waves-effect waves-light btn modal-trigger btn pull-right" href="#modal3"><i class="material-icons">zoom_in</i></a>
             </div>
           </div>
           <hr>
@@ -180,7 +187,8 @@
             </div>
             <img class="bargraph" src="styles/images/bargraph.png">
           </div>
-          <div class="row">
+
+          <div class="row debrief">
             <div class='col s10 offset-s1'>
               <br>
               <h5>METHODOLOGY</h5>
@@ -212,10 +220,37 @@
             </div>
           </div>
         </div>
-        <footer>
-          <div class="topic">HIRED</div>
-        </footer>
 
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <img class="average" src="styles/images/average-eng.jpg">">
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">close</a>
+      </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <img id="average-relo" src="styles/images/average-relo.jpg">
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">close</a>
+      </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <img id="people-chart" src="styles/images/people-chart.jpg">
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">close</a>
+      </div>
+    </div>
+    
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->
